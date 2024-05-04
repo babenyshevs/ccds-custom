@@ -54,4 +54,29 @@ Project Organization
 
 --------
 
+# How to create a project with coockie *cutter data science*
+
+    cookiecutter https://github.com/babenyshevs/ccds-custom.git --checkout windows
+
+# Steps to follow after creating a project
+## create and activate virtual environment
+
+    python -m venv .venv
+    .venv/Scripts/activate
+
+## create GIT repo
+
+    git init
+    git add .
+    git commit -m "default initial commit"
+
+## checkout develop branch (optional)
+
+    git checkout -b develop
+
+## install requirements
+
+    python -m pip install -U pip setuptools wheel
+    python -m pip install -r requirements.txt
+
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
