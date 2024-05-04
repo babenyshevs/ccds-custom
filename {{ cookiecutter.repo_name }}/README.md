@@ -7,7 +7,6 @@ Project Organization
 ------------
 
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
     ├── README.md          <- The top-level README for developers using this project.
     ├── data
     │   ├── external       <- Data from third party sources.
@@ -54,23 +53,24 @@ Project Organization
 
 --------
 
-# How to create a project with coockie *cutter data science*
-
-    cookiecutter https://github.com/babenyshevs/ccds-custom.git --checkout windows
-
-# Steps to follow after creating a project
+# Steps to follow after creating/cloning a project
 ## create and activate virtual environment
 
     python -m venv .venv
     .venv/Scripts/activate
 
-## create GIT repo
+## create GIT repo (optional)
+alternative way is to create a remote repository, clone it locally and copy create ccds project into it.
 
     git init
+
+## initial commit to the new repo
+
     git add .
     git commit -m "default initial commit"
 
 ## checkout develop branch (optional)
+for small project everything might be stored in master
 
     git checkout -b develop
 
