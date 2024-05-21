@@ -56,7 +56,7 @@ Project Organization
 
 # How to create a project with coockie *cutter data science*
 
-    cookiecutter https://github.com/babenyshevs/ccds-custom.git --checkout windows
+    cookiecutter https://github.com/babenyshevs/ccds-custom.git
 
 # Steps to follow after creating/cloning a project
 ## create and activate virtual environment
