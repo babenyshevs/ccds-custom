@@ -81,7 +81,12 @@ for small project everything might be stored in master
 
 ## install requirements
 
+install current project as a package
+
     python -m pip install -U pip setuptools wheel
+
+before installing further open $requirements.txt$ and (un)comment packages, which you consider to be (ir)relevant for a given project. This will save some time (and disc space), packages can be added later if needed.  
+
     python -m pip install -r requirements.txt
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
