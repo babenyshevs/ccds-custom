@@ -28,7 +28,7 @@ plotly==5.20.0
 pyLDAvis==3.4.1
 seaborn==0.13.2
 topic-wizard==1.0.2
-
+pyautogui==0.9.54
 
 # DATA HANDLING
 fastparquet
